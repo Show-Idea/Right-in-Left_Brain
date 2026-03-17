@@ -269,7 +269,7 @@
             Robust long-horizon robotic manipulation in open environments is a fundamental requirement for deploying robots in daily life. Without a closed loop that integrates perception, reasoning, and execution, robots cannot withstand disturbances and drift away from global goals, hindering practical deployment. Yet existing Vision-Language-Action (VLA) models directly map observations to actions and struggle to generalize to unseen scenes. Hierarchical frameworks rely on lengthy prompt-based spatial inference, which is fragile and prone to hallucination. Moreover, the absence of closed-loop feedback in reasoning prevents online correction, leading to error accumulation that destabilizes long-horizon execution, particularly under disturbances. To address these limitations, we propose Right-in-Left Brain (RiLBrain), a closed-loop framework that integrates spatial perception into reasoning via a unified VLM, reducing error accumulation and enabling online correction in long-horizon tasks. Experiments validate the effectiveness of RiLBrain, showing clear advantages over representative VLAs and hierarchical baselines in long-horizon manipulation with strong robustness and generalization.
           </p>
           <div class="has-text-centered" style="margin-top: 1.5rem;">
-            <img src="static/images/abstract_figure.png" 
+            <img src="static/images/abstract_figure.jpg" 
                  alt="Abstract Illustration"
                  style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);display: block;margin-left: auto;margin-right: auto;"">
             <p style="font-size: 0.9rem; color: gray; margin-top: 0.5rem;">
@@ -296,13 +296,13 @@
         <!-- 段落介绍 -->
         <div class="content has-text-justified has-text-black">
           <p style="line-height: 1.6;">
-            We fine-tune the Qwen2-VL-7B to predict affordances and manipulation constraints, which mitigates hallucination and enables fast and reliable prediction.
+            We fine-tune the Qwen3-VL-32B to predict affordances and manipulation constraints, which mitigates hallucination and enables fast and reliable prediction.
           </p>
         </div>
         
         <!-- 图片 + caption -->
         <div class="has-text-centered" style="margin-top: 1.5rem;">
-          <img src="static/images/Method1_figure.png" 
+          <img src="static/images/Method1_figure.jpg" 
                alt="Method Illustration"
                style="max-width: 100%; height: auto; 
                       border-radius: 8px; 
